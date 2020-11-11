@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+@font-face
+{
+font-family: fontpeabmad;
+src: url('peabmad.eot');
+src: url('peabmad.eot?#iefix') format('embedded-opentype'),
+     url('peabmad.ttf') format('truetype');
+}
+
+#outer { 
+	width: 800px;
+	background: #FFF;
+	margin: 20px auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+	border-collapse: collapse;
+	-webkit-box-shadow: 10px 10px 5px #888888;
+	-moz-box-shadow: 10px 10px 5px #888888;
+	box-shadow: 10px 10px 5px #888888;
+	background-color: #EBEBEB;
+	border: #6D6D6D solid 1px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+		
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=140, Color='#888888');
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=140, Color='#888888', positive=true)";
+	zoom: 1;
+	}
+
+#outer2 { 
+	width: 550px;
+	background: #DDF;
+	margin: 20px auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+	border-collapse: collapse;
+	-webkit-box-shadow: 10px 10px 5px #888888;
+	-moz-box-shadow: 10px 10px 5px #888888;
+	box-shadow: 10px 10px 5px #888888;
+	background-color: #DDF;
+	border: #6D6D6D solid 1px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+		
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=140, Color='#888888');
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=140, Color='#888888', positive=true)";
+	zoom: 1;
+	}
+
+#heading { 
+	margin: 0 auto;
+	font-size: 15px;
+	font-family:fontpeabmad }
+	
+#space0, #space1, #space2, #space3, #space4 { 
+	margin: 0 auto;
+	padding: 0 20px 20px 20px; }
+	
+#maps-heading { 
+	margin: 0 auto;
+	padding: 0 5px 5px 5px;
+	font-size: 15px;
+	font-family:fontpeabmad; }
+	
+#map { 
+	margin: 0 auto;
+	padding: 0 5auto;
+    font-size: 15px;
+	text-indent: 10px; }
+	
+#drive-heading, #rsvp-heading { 
+	margin: 0 auto;
+	padding: 0 auto;
+	font-size: 15px;
+	font-family:fontpeabmad; }
+	
+#drive-text1, #drive-text2, #drive-text3, #rsvp-text1, #rsvp-text2 { 
+	margin: 0 auto;
+	padding: 0 5auto;
+    font-size: 15px;
+	font-style: oblique;
+	text-indent: 10px; }
